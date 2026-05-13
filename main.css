@@ -1,0 +1,29 @@
+img {
+    width:1000px;
+}
+body {
+    text-align:center;
+}
+
+/* Server status colors */
+#status {
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 6px;
+    min-width: 220px;
+}
+.status-online {
+    background: #e6ffed;
+    color: #0a6b2e;
+    border: 1px solid #7fe0a3;
+}
+.status-offline {
+    background: #ffecec;
+    color: #8b0000;
+    border: 1px solid #f5a3a3;
+}
+
+.player {
+    padding: 0.2rem 0.4rem;
+}
